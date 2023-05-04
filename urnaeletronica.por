@@ -1,8 +1,8 @@
 programa
 {
-	
+	inclua biblioteca Matematica --> mat
 	funcao inicio()	
-	{	
+	{	
 		inteiro  numeroCandidato, percentualVotos, encerrarVotacao, Candidato1 = 0, Candidato2 = 0, Candidato3= 0, votoBranco = 0, votoNulo = 0
 	
 		faca {
@@ -31,25 +31,26 @@ programa
 				votoNulo++
 				escreva("Voto nulo")
 				pare
+				
 			caso 0:
 				encerrarVotacao
 				escreva("Encerrar a votação")
 				pare
 
-		enquanto encerrarVotacao 
+		enquanto  
 		
 		
 		
 				
 		}
 	}
-} 
+} 
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 783; 
+ * @POSICAO-CURSOR = 478; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
