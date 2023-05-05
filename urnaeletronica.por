@@ -4,7 +4,7 @@ programa
 	funcao inicio()	
 	
 	{	
-		inteiro  percentualVotos, encerrarVotacao, candidato1 = 0, candidato2 = 0, candidato3= 0, votoBranco = 0, votoNulo = 0, codigoVoto, votosTotal=0, numeroTotalVotos
+		inteiro  percentualVotos, candidato1 = 0, candidato2 = 0, candidato3= 0, votoBranco = 0, votoNulo = 0, codigoVoto, votosTotal=0, numeroTotalVotos
 		inteiro totalVotosc1, totalVotosc2,totalVotosc3,totalVotosB,totalVotosN,numeroCandidato =0,votoInvalido
 		real soma
 		real percentualc1,percentualc2,percentuac3
@@ -45,7 +45,7 @@ programa
 
 			caso 0:
 				escreva("Encerrar a votação\n")
-				leia(encerrarVotacao)
+				encerraVotacao = verdadeiro
 				limpa()
 				pare
 
@@ -73,7 +73,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 541; 
+ * @POSICAO-CURSOR = 978; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
